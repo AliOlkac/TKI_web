@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  overflow: hidden;
+}
+section img#man {
+  transform-origin: 47% 93%;
+  opacity: 0.6;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#baslik_1 {
+  position: relative;
+  color: #fff;
+  font-size: 10vw;
+}
+
+.bolum2 {
+  background-color: black;
+  width: 100%;
+  height: 120vh;
+  z-index: -1;
+}
+.bolum2 img {
+  background-color: wheat;
+  border-radius: 30%;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.bolum2 .description {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bolum2 .description h2 {
+  font-size: 3em;
+  font-weight: 700;
+  font-style: inherit;
+  margin: 10px;
+  color: wheat;
+}
+.bolum2 .description p {
+  font-size: 1.2em;
+  color: wheat;
+}
+.bolum3 {
+  background-color: black;
+  width: 100%;
+  height: 120vh;
+  z-index: -1;
+}
+.bolum3 img {
+  position: relative;
+  background-color: wheat;
+  border-radius: 20%;
+
+  left: 5%;
+  top: 5%;
+  width: 35%;
+  height: 60%;
+  background-repeat: no-repeat;
+}
+section img#tas_komur {
+  transform-origin: 50% 50%;
+  opacity: 1;
+}
+.bolum3 .description {
+  position: relative;
+  text-align: center;
+  left: 8%;
+  top: 5%;
+}
+.bolum3 .description h2 {
+  font-size: 3em;
+  font-weight: 700;
+  font-style: inherit;
+  margin: 10px;
+  color: wheat;
+}
+.bolum3 .description p {
+  font-size: 1.2em;
+  color: wheat;
+}
+.bolum4 {
+  background-color: black;
+  width: 100%;
+  height: 120vh;
+}
+.bolum4 img {
+  position: relative;
+  background-color: wheat;
+  border-radius: 20%;
+  left: 5%;
+  top: 5%;
+  width: 35%;
+  height: 60%;
+  background-repeat: no-repeat;
+}
+.bolum4 .paragraf {
+  position: relative;
+  width: 55%;
+  left: 8%;
+  top: 5%;
+  text-align: center;
+}
+.bolum4 .paragraf h2 {
+  font-size: 3em;
+  font-weight: 700;
+  font-style: inherit;
+  margin: 10px;
+  color: wheat;
+}
+.bolum4 .paragraf p {
+  font-size: 1.2em;
+  color: wheat;
+}
+.bolum5 {
+  background-color: black;
+  width: 100%;
+  height: 120vh;
+}
+.bolum5 img {
+  position: relative;
+  background-color: wheat;
+  border-radius: 20%;
+  left: 5%;
+  top: 5%;
+  width: 35%;
+  height: 60%;
+  background-repeat: no-repeat;
+}
+.bolum5 .paragraf {
+  position: relative;
+  width: 55%;
+  left: 8%;
+  top: 5%;
+  text-align: center;
+}
+.bolum5 .paragraf h2 {
+  font-size: 3em;
+  font-weight: 700;
+  font-style: inherit;
+  margin: 10px;
+  color: wheat;
+}
+.bolum5 .paragraf p {
+  font-size: 1.2em;
+  color: wheat;
+}
+
